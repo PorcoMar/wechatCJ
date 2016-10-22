@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide page1">
+		        	<div class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
+		        		
+		        	</div>
+		        	<div class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.8s">
+		        		
+		        	</div>
+		        	<div class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1.5s" swiper-animate-delay="1.3s">
+		        	</div>
+		        	<div class="ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.5s" swiper-animate-delay="2.3s">
+		        	</div>
+		        </div>
+		        <div class="swiper-slide page2">
+		        	<div class="ani" swiper-animate-effect="rounds infinite" swiper-animate-duration="5s" swiper-animate-delay="0.3s">
+		        		
+		        	</div>
+		        	<div >
+		        		<img class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.3s" src="img/9a4f0ff2-4332-472e-92ed-c0906783c94a.png" />
+		        	</div>
+		        	<div>
+		        		<img class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="1s" src="img/e0d61299-10d0-4ef2-b528-d8999aa393ab.png" />
+		        	</div>
+		        	<div>
+		        		<img class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="2s" src="img/ba4fdfe1-a8f5-4b34-ae41-836f70f5cb78.png" />
+		        	</div>
+		        	<div>
+		        		<img class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="3s" src="img/2f5e6de3-770c-4b16-937a-8ac5e0d1f2c3.png" />
+		        	</div>
+		        </div>
+		        <div class="swiper-slide page3">
+		        	<div class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay=".3s"></div>
+		        	<div class="ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="1s"></div>
+		        	<div>
+		        		<img class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="2s" src="img/9102c205-4b0e-4cd5-becc-34866e2515f9.png" />
+		        		<img class="ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="2s" src="img/4dda96af-c3c6-4016-bb9f-24fd1f63953f.png" />
+		        		<img class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="2s" src="img/e83cfb09-5320-46e8-ac66-db50657b336d.png" />
+		        		<img class="ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="2s" src="img/62c8a5c5-278d-463e-a8e2-96c40bdf89ff.png" />
+		        	</div>
+		        	<div class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="1s">
+		        		
+		        	</div>
+		        </div>
+		        <div class="swiper-slide page4">
+		        	<div class="ani" swiper-animate-effect="flipInY" swiper-animate-duration="1s" swiper-animate-delay=".3s"></div>
+		        	
+		        </div>
+		        <div class="swiper-slide page5">
+		        	<div class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay=".3s"></div>
+		        	<div>
+		        		<img src="img/32f9a7f8-b99d-471a-b914-eddf59c6686c.JPG" />
+		        		<img src="img/312f0002-b883-42a9-be0f-3e1cb2ba0852.jpg" />
+		        		<img src="img/89a3d8c9-50b1-44d6-86da-2e022bbab4ac.JPG" />
+		        		<img src="img/bd69905c-5848-4090-8793-c1bf63ee4b6d.JPG" />
+		        	</div>
+		        </div>
+		        
+		        <div class="swiper-slide page6">Slide 6</div>
+		    </div>
+		</div>
+		<script src="js/swiper.animate1.0.2.min.js"></script>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var mySwiper = new Swiper ('.swiper-container', {
+	    		direction: 'vertical',
+	    		loop: true,
+				onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+				    swiperAnimateCache(swiper); //隐藏动画元素 
+				    swiperAnimate(swiper); //初始化完成开始动画
+				  }, 
+			    onSlideChangeEnd: function(swiper){ 
+			    swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+			  } 
+			})
+		</script>
+	</body>
+</html>

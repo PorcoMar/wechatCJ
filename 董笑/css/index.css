@@ -1,0 +1,197 @@
+body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select { margin:0; padding:0; }
+em { font-style:normal; }
+ul,ol,dl{list-style:none;}
+img { border:0; vertical-align:top; }
+table { border-collapse:collapse; }
+input,textarea { outline:none; border:none;}
+textarea { resize:none; overflow:auto; }
+body { font-size:12px; font-family:"微软雅黑" "Time New Roman"; }
+a { text-decoration:none;color:#5d5d5d; }
+a:hover{text-decoration:underline;color:#f60;}
+
+html,body{
+	width:100%;
+	height:100%;
+	
+}
+
+
+.swiper-container,.swiper-wrapper{
+	width:100%;
+	height:100%;
+}
+
+.swiper-wrapper .swiper-slide{
+	width:100%;
+	height:100%;
+	position: relative;
+}
+.swiper-wrapper .page1{
+	background:url(../img/01aca69f-8b74-488f-b543-5eb6d4a6e4d1.jpg) no-repeat;
+}
+.swiper-wrapper .page1 div:nth-child(1){
+	width:100%;
+	height: 2rem;
+	background:url(../img/90b3f680-b549-4aeb-8f76-b4cffe196c3e.png) no-repeat center;
+	background-size:80%;
+	margin-top:25%;
+}
+.swiper-wrapper .page1 div:nth-child(2){
+	width:100%;
+	height: 4rem;
+	background:url(../img/17308581-73d8-488e-bb69-ce859f477207.png) no-repeat center;
+	background-size:70%;
+	margin-top:5%;
+}
+.swiper-wrapper .page1 div:nth-child(3){
+	width:100%;
+	height: 9rem;
+	background:url(../img/6666f4c5-9096-48b7-94cc-1638a6286412.png) no-repeat center;
+	background-size:60%;
+
+}
+.swiper-wrapper .page1 div:nth-child(4){
+	width:100%;
+	height: 4rem;
+	background:url(../img/26a2e533-7741-46bd-848f-5305cf7a785d.png) no-repeat center;
+	background-size:70%;
+	
+}
+.swiper-wrapper .page2{
+	background:url(../img/a3cd9936-1ff3-413b-a33b-b03dbb555f44.jpg) no-repeat;
+	background-size:100% 100%;
+}
+.swiper-wrapper .page2 div{
+	background:url(../img/f264c783-bef2-4a2d-9b6a-cfd8f9aa7ac9.png) no-repeat
+}
+.swiper-wrapper .page2 div:nth-child(1){
+	position: absolute;
+	width:120%;
+	height:100%;
+	left:-60%;
+	
+	background:url(../img/c9ea3a60-0e05-463c-98ad-a5b63d2190bf.png) no-repeat center;
+	background-size:100% ;
+}
+
+.swiper-wrapper .page2 div:nth-child(2){
+	width:100%;
+	height:11%;
+	margin-top:15%;
+	background-position: 3%;
+	background-size:20%;
+}
+.swiper-wrapper .page2 div:nth-child(2) img{
+	height:11%;
+	position: absolute;
+	z-index: 1;
+	left:-4%;
+}
+.swiper-wrapper .page2 div:nth-child(3){
+	
+	height:20%;
+	background-position: 12%;
+	background-size:30%;
+}
+.swiper-wrapper .page2 div:nth-child(3) img{
+	height:20%;
+	position: absolute;
+	z-index: 1;
+}
+
+.swiper-wrapper .page2 div:nth-child(4){
+	
+	height:30%;
+	background-position: 27%;
+	background-size:40%;
+}
+.swiper-wrapper .page2 div:nth-child(4) img{
+	height:30%;
+	position: absolute;
+	z-index: 1;
+}
+
+.swiper-wrapper .page2 div:nth-child(5){
+	
+	height:20%;
+	background-position: 15%;
+	background-size:30%;
+}
+.swiper-wrapper .page2 div:nth-child(5) img{
+	height:20%;
+	position: absolute;
+	z-index: 1;
+}
+
+
+.swiper-wrapper .page3 div:nth-child(1){
+	position:absolute;
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:url(../img/d28bb27f-a7e9-41cd-8984-091432a1d5ce.jpg) no-repeat;
+}
+
+.swiper-wrapper .page3 div:nth-child(2){
+	position: absolute;
+	top:10%;
+	left:10%;
+	height:10%;
+	width:80%;
+	background:url(../img/90b3f680-b549-4aeb-8f76-b4cffe196c3e.png) no-repeat;
+	background-size:100%;
+}
+
+.swiper-wrapper .page3 div:nth-child(3){
+	position: absolute;
+	top:20%;
+	height:50%;
+	width:100%;
+}
+.swiper-wrapper .page3 div:nth-child(3) img{
+	width:25%;
+	height:100%;
+	float: left;
+}
+.swiper-wrapper .page3 div:nth-child(4){
+	position:absolute;
+	bottom:10%;
+	width:80%;
+	height:15%;
+	left:10%;
+	background:url(../img/26a2e533-7741-46bd-848f-5305cf7a785d.png) no-repeat;
+	background-size:100%;
+}
+.swiper-wrapper .page4{
+	background:url(../img/80f869d2-ae5e-4e4e-a41f-5c9539a9dbdd.jpg) no-repeat;
+	background-size:100% 100%;
+}
+.swiper-wrapper .page4 div:nth-child(1){
+	background:url(../img/c3b57683-a82c-42fa-9fbe-9f98e676b3bc.jpg) no-repeat;
+	background-size:100% 100%;
+	width:100%;
+	height:90%;
+
+	top:5%;
+	position: absolute;
+}
+.swiper-wrapper .page5 div:nth-child(1){
+	background:url(../img/941319de-eba1-4ad8-a43e-27efc33a574d.jpg) no-repeat;
+	background-size:100% 100%;
+	height:100%;
+}
+
+.swiper-wrapper .page5 div:nth-child(2){
+	position:absolute;
+	top:15%;
+	left:10%;
+	width:80%;
+	height:70%;
+	
+}
+.swiper-wrapper .page5 div:nth-child(2) img{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
